@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OK WIN</title>
+    <link rel="stylesheet" href="style.css">
+ <script>
+ function playSound() {
+    const sound = new Audio('assets/clicksound.mp3'); // Replace 'sound.mp3' with your sound file
+    sound.play();
+  }
+window.addEventListener('DOMContentLoaded', () => {
+    // Show the popup when the page loads
+    document.getElementById('popup').style.display = 'flex';
+
+    // Get the register button
+    const registerButton = document.getElementById('registerButton');
+
+    // Close popup and redirect on button click
+    registerButton.addEventListener('click', function() {
+        document.getElementById('popup').style.display = 'none'; // Close popup
+           playSound(); 
+        window.location.href = "https://okwinslots1.com/#/register?invitationCode=6847683996"; // Redirect
+    });
+});
+
+
+
+    </script>
+</head>
+ <style>
+         .important-text{
+            text-align: center;
+            font-size: xx-large;
+        }
+       .message{
+        font-size: x-large;
+        padding: 30px 0;
+       }
+
+     .popup {
+    display: none; /* Initially hidden */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000; /* Ensure it's on top */
+    width: 100%;
+    max-width: 500px; /* Or whatever width you want */
+    border-radius: 10px;
+    overflow: hidden;
+    color: white;
+    
+        }
+        .popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.register-button {
+    background-color: red; /* Red close button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 100%; /* Make the close button full width */
+}
+</style>
+<body style="background-color: #FE9593;">
+
+<div class="container">
+    <div id="topdiv" style="display: flex; margin-top: 0; gap: 40px; align-items: center; ">
+        <div><img src="assets/OKWIN.png" alt="" width="150"></div>
+        <div class="top-right">
+            <p>THIS MOD NOT WORK IN OLD ID SO "REGISTER NOW" </p>
+            <a href="https://okwinslots1.com/#/register?invitationCode=6847683996"><button id="register" style="background-color: #f84a47;">REGISTER</button></a>
+        </div>
+    </div> 
+    
+    
+    <div style="display: flex; justify-content: center; align-items: center;">
+    
+    <div style="margin: 20px; text-align: center;">
+        <label class="label">ENTER LATEST 7 RECORD</label>
+        <div id="searchInput">
+            <input type="text" >
+        </div>
+    </div>
+</div>
+
+    <div class="image-container">
+        <img src="assets/SMALL.png" alt="Image 1" onclick="addImageToInput(this)">
+        <img src="assets/BIG.png" alt="Image 2" onclick="addImageToInput(this)">
+    </div>
+
+    <div class="button-group">  
+        <button id="submitButton" onclick="showPopup()" style="background-color: #f84a47;">Check</button>
+        <button id="clearButton" onclick="clearInput()">Clear</button>
+    </div>
+<div class="popup" id="myPopup">
+    <div class="popup-content" style="background: none; color: white;"> 
+        <div id="popupImageContainer">
+            <!-- Image will be injected dynamically by JS -->
+        </div>
+        <button class="close-button" onclick="closePopup()">Close</button>
+    </div>
+</div>
+
+</div>
+<div class="strip">
+    <p><a href="https://t.me/ok_win_official1" style="color:red">Join 100% Loss Recovery & SureShot</a></p>
+</div>
+<div>
+    <h3>LEVEL UP CHART</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>LEVEL 1</th>
+                <th>LEVEL 2</th>
+                <th>LEVEL 3</th>
+                <th>LEVEL 4</th>
+                <th>LEVEL 5</th>
+                <th>LEVEL 6</th>
+                <th>LEVEL 7</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>10</td>
+                <td>30</td>
+                <td>70</td>
+                <td>160</td>
+                <td>360</td>
+                <td>760</td>
+                <td>2140</td>
+            </tr>
+            
+        </tbody>
+    </table>
+
+<div id="popup" class="popup-overlay">
+    <div id="popup-content">
+        <div class="blue-area">
+            <div class="content">
+                <div class="important-text">🚨IMPORTANT🚨</div>
+                <div class="message">
+                                            Create a new account in OK WIN by clicking on Register Now button. If you use this mod on old account this mod will not work. "Register" बटन पर क्लिक करके एक नया Account बनाये, यदि आप इस मॉड का उपयोग पुराने Account में करेगें, तो ये मॉड काम नहीं करेगा
+                    
+</div>
+                </div>
+                <button id="registerButton" class="register-button">REGISTER NOW</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+         </div>
+</body>
+<script src="script.js"></script>
+</html> 
