@@ -61,7 +61,7 @@ function showPopup() {
     const popup = document.getElementById("myPopup");
 
     // Define the two image options
-    const imageOptions = ["assets/bigpopup.png", "assets/smallpopup.png"];
+    const imageOptions = ["bigpopup.png", "smallpopup.png"];
 
     // Select one image randomly
     const randomImageSrc = imageOptions[Math.floor(Math.random() * imageOptions.length)];
